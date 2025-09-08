@@ -1,0 +1,6 @@
+@autoschedular_HostAddress = http://localhost:5030
+
+GET {{autoschedular_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

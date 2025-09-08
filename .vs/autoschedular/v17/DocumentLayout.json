@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PasinduEranga\\Desktop\\New folder\\autoschedular\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2558D0-95CD-4710-BACA-919445BD83F5}|autoschedular\\autoschedular.csproj|c:\\users\\pasindueranga\\desktop\\new folder\\autoschedular\\autoschedular\\model\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2558D0-95CD-4710-BACA-919445BD83F5}|autoschedular\\autoschedular.csproj|solutionrelative:autoschedular\\model\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2558D0-95CD-4710-BACA-919445BD83F5}|autoschedular\\autoschedular.csproj|c:\\users\\pasindueranga\\desktop\\new folder\\autoschedular\\autoschedular\\model\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2558D0-95CD-4710-BACA-919445BD83F5}|autoschedular\\autoschedular.csproj|solutionrelative:autoschedular\\model\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2558D0-95CD-4710-BACA-919445BD83F5}|autoschedular\\autoschedular.csproj|c:\\users\\pasindueranga\\desktop\\new folder\\autoschedular\\autoschedular\\model\\dtos\\lecturerdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2558D0-95CD-4710-BACA-919445BD83F5}|autoschedular\\autoschedular.csproj|solutionrelative:autoschedular\\model\\dtos\\lecturerdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2558D0-95CD-4710-BACA-919445BD83F5}|autoschedular\\autoschedular.csproj|c:\\users\\pasindueranga\\desktop\\new folder\\autoschedular\\autoschedular\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB2558D0-95CD-4710-BACA-919445BD83F5}|autoschedular\\autoschedular.csproj|solutionrelative:autoschedular\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lecturer.cs",
+              "DocumentMoniker": "C:\\Users\\PasinduEranga\\Desktop\\New folder\\autoschedular\\autoschedular\\Model\\Lecturer.cs",
+              "RelativeDocumentMoniker": "autoschedular\\Model\\Lecturer.cs",
+              "ToolTip": "C:\\Users\\PasinduEranga\\Desktop\\New folder\\autoschedular\\autoschedular\\Model\\Lecturer.cs",
+              "RelativeToolTip": "autoschedular\\Model\\Lecturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T16:48:39.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Batch.cs",
+              "DocumentMoniker": "C:\\Users\\PasinduEranga\\Desktop\\New folder\\autoschedular\\autoschedular\\Model\\Batch.cs",
+              "RelativeDocumentMoniker": "autoschedular\\Model\\Batch.cs",
+              "ToolTip": "C:\\Users\\PasinduEranga\\Desktop\\New folder\\autoschedular\\autoschedular\\Model\\Batch.cs",
+              "RelativeToolTip": "autoschedular\\Model\\Batch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T16:48:23.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LecturerDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\PasinduEranga\\Desktop\\New folder\\autoschedular\\autoschedular\\Model\\DTOs\\LecturerDTOs.cs",
+              "RelativeDocumentMoniker": "autoschedular\\Model\\DTOs\\LecturerDTOs.cs",
+              "ToolTip": "C:\\Users\\PasinduEranga\\Desktop\\New folder\\autoschedular\\autoschedular\\Model\\DTOs\\LecturerDTOs.cs",
+              "RelativeToolTip": "autoschedular\\Model\\DTOs\\LecturerDTOs.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T16:48:18.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PasinduEranga\\Desktop\\New folder\\autoschedular\\autoschedular\\Program.cs",
+              "RelativeDocumentMoniker": "autoschedular\\Program.cs",
+              "ToolTip": "C:\\Users\\PasinduEranga\\Desktop\\New folder\\autoschedular\\autoschedular\\Program.cs",
+              "RelativeToolTip": "autoschedular\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T07:58:33.539Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
