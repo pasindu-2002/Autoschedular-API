@@ -37,6 +37,20 @@ namespace autoschedular.Services.implementation
             };
         }
 
+        public async Task<List<LecturerResponseDto>> GetAllLecturersAsync()
+        {
+            var lecturers = await _context.Lecturers
+                .Select(l => new LecturerResponseDto
+                {
+                    EmpNo = l.EmpNo,
+                    FullName = l.FullName,
+                    Email = l.Email
+                })
+                .ToListAsync();
+
+            return lecturers;
+        }
+
         public async Task<bool> CreateLecturerAsync(CreateLecturerDto createLecturerDto)
         {
             try

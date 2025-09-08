@@ -35,6 +35,27 @@ namespace autoschedular.Services.implementation
             return batch;
         }
 
+        public async Task<List<BatchResponseDto>> GetAllBatchesAsync()
+        {
+            var batches = await _context.Batches
+                .Include(b => b.Lecturer)
+                .Select(b => new BatchResponseDto
+                {
+                    BatchCode = b.BatchCode,
+                    CourseCode = b.CourseCode,
+                    CourseDirector = b.CourseDirector,
+                    LecturerDetails = b.Lecturer != null ? new LecturerInfo
+                    {
+                        EmpNo = b.Lecturer.EmpNo,
+                        FullName = b.Lecturer.FullName,
+                        Email = b.Lecturer.Email
+                    } : null
+                })
+                .ToListAsync();
+
+            return batches;
+        }
+
         public async Task<bool> CreateBatchAsync(CreateBatchDto createBatchDto)
         {
             try

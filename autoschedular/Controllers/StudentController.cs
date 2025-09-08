@@ -43,6 +43,18 @@ namespace autoschedular.Controllers
             });
         }
 
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllStudents()
+        {
+            var students = await _studentService.GetAllStudentsAsync();
+            
+            return Ok(new ApiResponse<List<StudentResponseDto>>
+            {
+                Message = "All students fetched successfully",
+                Data = students
+            });
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreateStudent([FromBody] CreateStudentDto createStudentDto)
         {

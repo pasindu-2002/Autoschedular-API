@@ -43,6 +43,18 @@ namespace autoschedular.Controllers
             });
         }
 
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllCourses()
+        {
+            var courses = await _courseServices.GetAllCoursesAsync();
+            
+            return Ok(new ApiResponse<List<CourseResponseDto>>
+            {
+                Message = "All courses fetched successfully",
+                Data = courses
+            });
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreateCourse([FromBody] CreateCourseDto createCourseDto)
         {

@@ -28,6 +28,20 @@ namespace autoschedular.Services.implementation
             return course;
         }
 
+        public async Task<List<CourseResponseDto>> GetAllCoursesAsync()
+        {
+            var courses = await _context.Courses
+                .Select(c => new CourseResponseDto
+                {
+                    CourseCode = c.CourseCode,
+                    CourseName = c.CourseName,
+                    School = c.School
+                })
+                .ToListAsync();
+
+            return courses;
+        }
+
         public async Task<bool> CreateCourseAsync(CreateCourseDto createCourseDto)
         {
             try

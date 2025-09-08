@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("autoschedular")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6653d074bddfc044b3f287a06f925d3f0193d97")]
 [assembly: System.Reflection.AssemblyProductAttribute("autoschedular")]
 [assembly: System.Reflection.AssemblyTitleAttribute("autoschedular")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

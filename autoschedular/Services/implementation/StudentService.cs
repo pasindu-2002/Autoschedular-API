@@ -38,6 +38,21 @@ namespace autoschedular.Services.implementation
             };
         }
 
+        public async Task<List<StudentResponseDto>> GetAllStudentsAsync()
+        {
+            var students = await _context.Students
+                .Select(s => new StudentResponseDto
+                {
+                    StuId = s.StuId,
+                    FullName = s.FullName,
+                    Email = s.Email,
+                    BatchCode = s.BatchCode
+                })
+                .ToListAsync();
+
+            return students;
+        }
+
         public async Task<bool> CreateStudentAsync(CreateStudentDto createStudentDto)
         {
             try

@@ -43,6 +43,18 @@ namespace autoschedular.Controllers
             });
         }
 
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllBatches()
+        {
+            var batches = await _batchService.GetAllBatchesAsync();
+            
+            return Ok(new ApiResponse<List<BatchResponseDto>>
+            {
+                Message = "All batches fetched successfully",
+                Data = batches
+            });
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreateBatch([FromBody] CreateBatchDto createBatchDto)
         {

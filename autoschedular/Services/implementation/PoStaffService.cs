@@ -37,6 +37,20 @@ namespace autoschedular.Services.implementation
             };
         }
 
+        public async Task<List<PoStaffResponseDto>> GetAllEmployeesAsync()
+        {
+            var employees = await _context.PoStaffs
+                .Select(p => new PoStaffResponseDto
+                {
+                    EmpNo = p.EmpNo,
+                    FullName = p.FullName,
+                    Email = p.Email
+                })
+                .ToListAsync();
+
+            return employees;
+        }
+
         public async Task<bool> CreateEmployeeAsync(CreatePoStaffDto createPoStaffDto)
         {
             try

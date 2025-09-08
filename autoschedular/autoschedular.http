@@ -4,3 +4,18 @@ GET {{autoschedular_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+# Generate Timetable
+POST {{autoschedular_HostAddress}}/api/TimeTable/generate
+Content-Type: application/json
+
+{
+  "lecturerId": "LEC001",
+  "moduleCode": "CS101",
+  "batchCode": "BATCH001",
+  "sessionType": "lecture",
+  "startDate": "2024-01-01T00:00:00.000Z",
+  "endDate": "2024-06-30T00:00:00.000Z"
+}
+
+###

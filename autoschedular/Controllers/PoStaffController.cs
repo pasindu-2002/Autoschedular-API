@@ -43,6 +43,18 @@ namespace autoschedular.Controllers
             });
         }
 
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllEmployees()
+        {
+            var employees = await _poStaffService.GetAllEmployeesAsync();
+            
+            return Ok(new ApiResponse<List<PoStaffResponseDto>>
+            {
+                Message = "All employees fetched successfully",
+                Data = employees
+            });
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreateEmployee([FromBody] CreatePoStaffDto createPoStaffDto)
         {

@@ -6,6 +6,7 @@ namespace autoschedular.Services
     public interface ILecturerService
     {
         Task<LecturerResponseDto?> GetLecturerAsync(string empNo, string password);
+        Task<List<LecturerResponseDto>> GetAllLecturersAsync();
         Task<LecturerWithBatchesDto?> GetLecturerWithBatchesAsync(string empNo);
         Task<bool> CreateLecturerAsync(CreateLecturerDto createLecturerDto);
         Task<bool> UpdateLecturerAsync(string empNo, UpdateLecturerDto updateLecturerDto);

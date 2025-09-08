@@ -18,6 +18,7 @@ builder.Services.AddScoped<IPoStaffService, PoStaffService>();
 builder.Services.AddScoped<IModuleService, ModuleService>();
 builder.Services.AddScoped<ILecturerTimetableService, LecturerTimetableService>();
 builder.Services.AddScoped<IAssignModuleService, AssignModuleService>();
+builder.Services.AddScoped<ITimeTableService, TimeTableService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

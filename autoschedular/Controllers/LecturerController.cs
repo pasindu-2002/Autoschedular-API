@@ -43,6 +43,18 @@ namespace autoschedular.Controllers
             });
         }
 
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllLecturers()
+        {
+            var lecturers = await _lecturerService.GetAllLecturersAsync();
+            
+            return Ok(new ApiResponse<List<LecturerResponseDto>>
+            {
+                Message = "All lecturers fetched successfully",
+                Data = lecturers
+            });
+        }
+
         [HttpGet("{empNo}/batches")]
         public async Task<IActionResult> GetLecturerWithBatches(string empNo)
         {

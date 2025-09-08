@@ -137,3 +137,4 @@ C:\Users\PasinduEranga\Desktop\New folder\autoschedular\autoschedular\obj\Debug\
 C:\Users\PasinduEranga\Desktop\New folder\autoschedular\autoschedular\obj\Debug\net8.0\autoschedular.pdb
 C:\Users\PasinduEranga\Desktop\New folder\autoschedular\autoschedular\obj\Debug\net8.0\autoschedular.genruntimeconfig.cache
 C:\Users\PasinduEranga\Desktop\New folder\autoschedular\autoschedular\obj\Debug\net8.0\ref\autoschedular.dll
+C:\Users\PasinduEranga\Desktop\New folder\autoschedular\autoschedular\obj\Debug\net8.0\autoschedular.sourcelink.json
